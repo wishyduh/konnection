@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&display=swap');
+
+.home{
+    background-image: url('./KA LOGO.jpg');
+    background-size: 385px;
+}
+
+#banner img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+#head{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 60px;
+    border: 40px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+    text-decoration: underline overline;
+    text-transform: uppercase;
+}
+
+#nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border: 20px;
+    font-size: 18px;
+}
+
+a{
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+a:hover{
+    background-color: crimson;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: crimson;
+    color: white;
+    cursor: pointer; 
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Russo One', sans-serif, Arial;
+    font-size: 65px;
+    text-align: center;
+}
+
+.social_connect h3{
+    font-family: 'Russo One', sans-serif, Arial;
+    font-size: 40px;
+    text-align: left;
+}
+
+.konnect h3{
+    font-family: 'Russo One', sans-serif, Arial;
+    font-size: 40px;
+    text-align: left;
+}
+
+.konnect p{
+    font-size: 20px;
+    font-family: 'Russo One';
+}
+
+.konnect span{
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: crimson;
+}
+
+#about{
+    text-align: center;
+    background-color: crimson;
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    font-family: 'Permanent Marker', sans-serif;
+    text-align: right;
+    padding: 15px;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    margin: 10px;
+}
+
+.projects h3{
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.projects h2{
+    font-family: 'Russo One';
+    text-align: left;
+    text-decoration: underline;
+}
+
+.car_images img{
+    display: inline-block;
+    height: 200px;
+}
